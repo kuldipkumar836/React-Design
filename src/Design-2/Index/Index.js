@@ -7,14 +7,13 @@ const Index = () => {
          <div className = "logo">
              <img src ="/img/work1.jpg" className ="img-responsive" />
              <div className= "link">
-                 <a> Mobile </a>
-                 <a> Earphone </a>
-                 <a> Dispaly </a>
-                 <a> Power Bank </a>
-                 <a> Clothe </a>
+                 <a> Home </a>
+                 <a> Services </a>
+                 <a> Features </a>
+                 <a> About Us </a>
+                 <a> Contact Us </a>
              </div>
          </div>
-     
         </div>
     );
 }
