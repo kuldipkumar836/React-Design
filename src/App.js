@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/font-awesome/css/font-awesome.css'
 
+import Header from './components/Header/Header';                               
+ import Main from './components/Main/Main'
+ import Service from './components/Service/Service'
+ import Footer from './components/Footer/Footer'
+ import Slide from './components/Slider/Slide';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "container">
+      <div className ="section mb-5">
+      <Header />
+      </div>
+       <div className ="section mb-5">
+      <Slide />
+      </div> 
+       <div className ="section mb-5">
+        <Main />
+      </div>
+      <div className ="section mb-5">
+        <Service />
+      </div>
+      <div className ="section">
+        <Footer />
+      </div> 
+      
     </div>
   );
 }

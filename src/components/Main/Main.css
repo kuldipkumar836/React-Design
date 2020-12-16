@@ -1,0 +1,94 @@
+.custom{
+    background-color: #fff;
+    min-height: 300px;
+    margin: 3px;
+    text-align: center;
+    font-size: large;
+}
+.main{
+   background-color: #F8EFBA;
+}
+.main_heading h2{
+    border-left: 5px solid #05c46b;
+}
+.sub-container{
+    margin: 20px 10px;
+}
+.notice{
+    height: 50px;
+    margin: 20px 50px;
+    background-color: rgba(252, 146, 146, 0.603);
+}
+h2{
+    color: #45aaf2;
+}
+.profile{
+    display: grid;
+    place-items: center;
+    margin: 2px;
+    padding: 2px 3px;
+}
+.profile p{
+    padding: 2px 3px;
+    color: #ccc;
+    font-size: small;
+}
+.profile h5{
+    padding: 2px 3px;
+
+}
+.profile img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.left_heading{
+    width: 100%;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    background-color: #45aaf2;
+}
+.link{
+    margin: 2px 3px;
+    padding: 2px 1px;
+}
+.link p a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.link p a:hover{
+    color: #45aaf2;
+}
+.link-icon{
+    margin: 5px 1px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color:#3867d6 ;
+    border-radius: 50%;
+}
+.btn_box1{
+    width: 150px;
+    height: 50px;
+    background-color: #45aaf2;
+    padding: 5px 1px;
+    margin: 20px 20px;
+    transition: all .5s ease;
+}
+.btn_box1:hover{
+    background-color: #fff;
+    outline: 1px solid #000;
+}
+.btn{
+    border: none;
+    outline: none;
+}
+.arrow{
+    width: 60px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    background-color: #004d29;
+}
