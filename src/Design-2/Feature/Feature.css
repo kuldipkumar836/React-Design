@@ -1,0 +1,47 @@
+.container{
+    background-color: #f1f2f6;
+}
+.service{
+    min-width: 150px;
+    min-height: 200px;
+    background-color: #ffffff;
+    margin: 5px 10px;
+    display: grid;
+    place-items: center;
+    transition: all .5s ease;
+}
+.service:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5%)
+}
+.service .logo{
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 61% 35% 26% 49% / 68% 28% 75% 49% ;
+    background-image: linear-gradient(to right,  #5f27cd, #be2edd)
+}
+.main-heading{
+    display: grid;
+    place-items: center;
+    margin: 5px 0px;
+    padding: 3px;
+}
+
+.service .logo i{
+    color: #fff;
+}
+.service .heading{
+    margin: 5px 3px;
+    padding: 2px;
+}
+.service .desc p{
+    text-align: center;
+    font-size: 14px;
+}
+.service .desc{
+    margin: 5px 3px;
+    padding: 2px;
+}
