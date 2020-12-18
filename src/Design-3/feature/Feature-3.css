@@ -1,0 +1,235 @@
+.style1{
+    background-color: #d1d8e0;
+
+}
+.style2{
+    background-color: #dff9fb;
+
+}
+.style3{
+    background-color: #CAD3C8;
+}
+.style5{
+    background-color: #fff;
+}
+.count{
+    margin: 10px 5px;
+    background-color: #fff;
+}
+.down{
+    margin-top: 50px;
+}
+.count-card{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    margin: 10px 5px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.count-detail{
+    display: grid;
+    place-items: center;
+    background-color: #6ab04c;
+}
+.count-card .profile-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: -25px;
+    border: 5px solid #fff;
+    display: grid;
+    place-items: center;
+    background:linear-gradient(to right, #45aaf2, #a55eea);
+}
+.page{
+    margin: 5px 10px;
+    padding: 3px;
+}
+.page h1{
+    width: 400px;
+    font-weight: bold;
+}
+.page p{
+    font-size: 14px;
+}
+.page button{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, #a55eea,#45aaf2);
+}
+.page button:hover{
+    background: linear-gradient(to right,#45aaf2,#a55eea); 
+    color: #fff;
+}
+.sub{
+    margin: 5px;
+    padding: 10px;
+}
+.polygon{
+    width: 20rem;
+    height: 20rem;
+    background: linear-gradient(to right,#45aaf2,#a55eea);
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+
+}
+.polygon-container{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.app-logo{
+    width: 100px;
+    height: 200px;
+}
+.app-logo img{
+    position: absolute;
+    top: -5%;
+    transform: translate(-10%);
+    width: 150px;
+    height: auto;
+}
+.desc h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
+.desc p{
+    font-size: 14px;
+}
+.desc h5{
+    width: 200px;
+    font-weight: bold;
+    padding: 5px;
+    border-left: 5px solid #45aaf2;
+}
+.desc button{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, #a55eea,#45aaf2);
+}
+.desc button:hover{
+    background: linear-gradient(to right,#45aaf2,#a55eea); 
+    color: #fff;
+}
+.main-heading{
+    display: grid;
+    place-items: center;
+}
+.main-heading p{
+    text-align: center;
+    font-size: 14px;
+}
+.main-heading h1{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.member-polygon{
+    width: 13rem;
+    height: 15rem;
+    display: grid;
+    place-items: center;
+    background-color: #d1d8e0;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+}
+.about-profile{
+    display: grid;
+    place-items: center;
+}
+.about-profile h4{
+    font-weight: bold;
+}
+.about-profile p{
+    font-size: 12px;
+}
+.blog-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-heading{
+    margin: 10px 0px;
+    display: grid;
+    place-items: center;
+}
+.blog-heading h2{
+    font-weight: bold;
+    padding: 2px;
+    padding-bottom:5px;
+    border-bottom: 5px solid #45aaf2;
+    /* Short The border */
+}
+.blog-heading p{
+    text-align: center;
+    width: 400px;
+    font-size: 15px;
+}
+.blog{
+    margin: 5px 10px;
+    width: 15rem;
+    height: 18rem;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+.blog img{
+    width: 100%;
+    height: auto;
+}
+.blog-content{
+    margin: 2px 4px;
+    padding: 2px;
+}
+.blog-content .like-comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sug{
+    width: 25rem;
+    height: auto;
+    background: transparent;
+    opacity: 1;
+}
+.submit{
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, #a55eea,#45aaf2);
+}
+.submit:hover{
+    color: #fff;
+    background: linear-gradient(to right, #45aaf2,#a55eea);
+}
+.review{
+    width: 10rem;
+    height: 12rem;
+    
+}
+.comment{
+    width: 10rem;
+    height: 8rem;
+    background-color: #dfe6e9;
+    color: #000;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    ;
+}
+.user-info{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.user-info .user-pic{
+    width: 50px;
+    height: 50px;
+}
+.user-info .user-pic img{
+    width: 50px;
+    height: 50px;;
+    border-radius: 50%;
+}

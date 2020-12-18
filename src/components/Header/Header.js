@@ -4,7 +4,7 @@ const Header = () => {
     return (
       <div className = "header">
        <div className = "logo">
-           <h1>Muncipality</h1>
+           Logo
        </div>
             <nav>
             <ul>
@@ -13,7 +13,10 @@ const Header = () => {
             <li><a href='#link'>Contact</a></li>
             <li><a href='#link'>About</a></li>
             </ul>
-        </nav>      
+        </nav> 
+        <div className = "toggle-menu">
+           <i className = "fa fa-bars" aria-hidden = "true"></i>
+       </div>     
       </div>
     );
 }
