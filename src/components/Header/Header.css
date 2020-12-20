@@ -59,7 +59,7 @@ box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     margin: 0 10px;
     
 }
-@media(max-width:768px){
+@media screen and (max-width:768px){
     .header{
         padding: 0 20px;
     }
@@ -71,8 +71,18 @@ box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
         top: 50px;
         left: -100%;
         /* left:-100% for sidebar animation */
-        transition: 0.5s;
+        opacity: 1;
+        transition: all 0.5s ease;
     }
+
+    .header nav.active{
+        background: #fff;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
     .header nav ul{
         display: block;
         text-align: center;
